@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>World Weather</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="weather.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://kit.fontawesome.com/2581aa715f.js"></script>
+	<script src="weather.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+        <div class="header">World Weather</div>
+        <input type="text" placeholder="Type in the city or country" id="location">
+        <button class="searchBtn" onclick="searchCity()">Search</button>
+        <div class="displayWeather">
+            <div class="location">----</div>
+            <div class="curWeather">----</div>
+            <div class="text">Temp: <span class="temp">--</span>°F</div>
+            <div class="text">Min Temp: <span class="min-temp">--</span>°F</div>
+            <div class="text">Max Temp: <span class="max-temp">--</span>°F</div>
+        </div>
+	</div>
+</body>
+</html>
